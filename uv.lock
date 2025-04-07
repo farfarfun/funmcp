@@ -4,5 +4,5 @@ requires-python = ">=3.13"
 
 [[package]]
 name = "funmcp"
-version = "0.0.1"
+version = "0.0.2"
 source = { virtual = "." }
