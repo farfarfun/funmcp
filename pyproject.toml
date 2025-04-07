@@ -1,9 +1,9 @@
 [project]
 name = "funmcp"
-version = "0.0.2"
+version = "0.0.3"
 description = "funmcp"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.8"
 dependencies = []
 [[project.authors]]
 name = "niuliangtao"

@@ -1,8 +1,8 @@
 version = 1
 revision = 1
-requires-python = ">=3.13"
+requires-python = ">=3.8"
 
 [[package]]
 name = "funmcp"
-version = "0.0.2"
+version = "0.0.3"
 source = { virtual = "." }
