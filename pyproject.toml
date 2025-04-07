@@ -1,0 +1,13 @@
+[project]
+name = "funmcp"
+version = "0.0.1"
+description = "funmcp"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+[[project.authors]]
+name = "niuliangtao"
+email = "farfarfun@qq.com"
+
+[tool.setuptools]
+license-files = []
