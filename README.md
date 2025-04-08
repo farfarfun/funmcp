@@ -9,10 +9,10 @@
 
 |序号|链接|说明|  
 |:-:|:-:|:-:|
-|1|[mcphub](https://mcphub.io/registry)||
-|2|[opentools](https://opentools.com/registry)||
-|3|[mcphunt](https://mcphunt.com/zh)||
-|4|[cursor directory](https://cursor.directory/mcp)||
+|1|[mcphub](https://mcphub.io/registry){:target="_blank"}||
+|2|[opentools](https://opentools.com/registry){:target="_blank"}||
+|3|[mcphunt](https://mcphunt.com/zh){:target="_blank"}||
+|4|[cursor directory](https://cursor.directory/mcp){:target="_blank"}||
 |5|[pulsemcp](https://www.pulsemcp.com/servers)||
 |6|[smithery](https://smithery.ai/)||
 |7|[claude](https://modelcontextprotocol.io/examples)||
