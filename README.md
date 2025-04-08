@@ -21,6 +21,6 @@
 
 # 相关链接
 * [mcp-docs](https://mcp-docs.cn/introduction)
-* 
+* [Mcp 相关的热门 GitHub AI项目仓库](https://www.aibase.com/zh/repos/topic/mcp)
 
 
