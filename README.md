@@ -17,7 +17,6 @@
 |6|[smithery](https://smithery.ai/)||
 |7|[claude](https://modelcontextprotocol.io/examples)||
 |8|[mcp.so](https://mcp.so/servers)||
-|9| <a href="https://mcp.so/servers" target="_blank">mcp.so</a> ||
 
 
 # 相关链接
@@ -25,5 +24,3 @@
 * 
 
 
-
-<a href="https://mcp.so/servers" target="_blank">mcp.so</a>
