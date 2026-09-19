@@ -1,3 +1,22 @@
+# funmcp
+
+MCP（Model Context Protocol）资料收集仓库：汇总 mcphub、smithery、mcp.so 等 MCP 服务器注册站点与中文文档链接。
+
+## 安装
+
+```bash
+uv add funmcp
+```
+
+## 当前状态
+
+本仓库当前仅是一个已发布到 PyPI 的空骨架包（`src/funmcp/`、`src/funmcp/mcp/` 均只有空的 `__init__.py`），尚无可调用的公开 API 或 MCP server 实现，暂无可运行示例。导入方式：
+
+```python
+import funmcp
+```
+
+下方内容为 MCP 协议本身的背景资料与相关站点链接，供了解 MCP 生态使用。
 
 # MCP简介
 
@@ -22,3 +41,16 @@
 # 相关链接
 * [mcp-docs](https://mcp-docs.cn/introduction)
 * [Mcp 相关的热门 GitHub AI项目仓库](https://www.aibase.com/zh/repos/topic/mcp)
+
+---
+
+## 关于 farfarfun
+
+[farfarfun](https://github.com/farfarfun) 是一个专注于实用工具库的开源组织，
+涵盖云存储、数据处理、AI、多媒体与开发工具链等方向。
+
+- 🏠 组织主页：<https://github.com/farfarfun>
+- 📦 PyPI：<https://pypi.org/user/niuliangtao/>
+- 📧 联系：farfarfun@qq.com
+
+本项目基于 [MIT](LICENSE) 协议开源。
