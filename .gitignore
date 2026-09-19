@@ -173,6 +173,15 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# ---- 组织规范要求的通用忽略项 ----
+*.rar
+*.db
+.run/
+logs/
+.idea/
+.vscode/
+node_modules/
+
 # ---- AI 编码助手 ----
 # 只忽略本地状态；团队有意共享的 agent / 命令 / 规则定义仍然版本化。
 # 必须写 `dir/*` 而不是 `dir/`：父目录被整体排除后 git 不会下探，
