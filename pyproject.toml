@@ -1,7 +1,7 @@
 [project]
 name = "funmcp"
 version = "0.0.4"
-description = "funmcp"
+description = "MCP（Model Context Protocol）资料收集仓库，汇总服务器注册站点与中文文档链接。"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
@@ -17,5 +17,10 @@ build-backend = "hatchling.build"
 
 [dependency-groups]
 dev = [
+    "funbuild>=1.6.66",
     "pytest>=9.0.3",
+    "ruff>=0.14.0",
 ]
+
+[tool.ruff]
+target-version = "py310"

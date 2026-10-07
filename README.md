@@ -16,6 +16,16 @@ uv add funmcp
 import funmcp
 ```
 
+## 开发与发布
+
+```bash
+uv sync --group dev
+uv run ruff check --fix . && uv run ruff format .
+uv run pytest
+```
+
+发布由维护者使用 `uv run funbuild build --version <版本号> "<提交信息>"` 完成；该流程负责版本递增、构建、安装校验、发布与打 tag。
+
 下方内容为 MCP 协议本身的背景资料与相关站点链接，供了解 MCP 生态使用。
 
 # MCP简介
