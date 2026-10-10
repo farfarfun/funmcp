@@ -24,7 +24,13 @@ uv run ruff check --fix . && uv run ruff format .
 uv run pytest
 ```
 
-发布由维护者使用 `uv run funbuild build --version <版本号> "<提交信息>"` 完成；该流程负责版本递增、构建、安装校验、发布与打 tag。
+提交信息使用中文，格式为 `<类型>: <做了什么>`，类型取 `feat`/`fix`/`docs`/`refactor`/`test`/`chore`，说明「为什么这么改」而不是复述 diff，一次提交只做一件事：
+
+```bash
+git commit -m "docs: 补充提交信息规范，避免新提交继续用英文"
+```
+
+发布由维护者使用 `uv run funbuild build --version <版本号> "<提交信息>"` 完成；该流程负责版本递增、构建、安装校验、发布与打 tag，传给它的提交信息同样遵循上面的格式。
 
 下方内容为 MCP 协议本身的背景资料与相关站点链接，供了解 MCP 生态使用。
 
